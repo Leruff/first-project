@@ -218,6 +218,7 @@
   display: flex;
   justify-content: center;
   padding: 60px 0 40px;
+  position: relative;
   background-color: #1f1f1f;
   z-index: 1;
 }
@@ -238,6 +239,9 @@
   list-style: none;
   padding: 20px 0 0 16px;
   z-index: 1;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .social-icon {
   width: 16px;
@@ -252,7 +256,13 @@
 }
 .footer__author {
   margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .footer__column-heading {
   margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
